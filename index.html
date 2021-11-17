@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LIBRARY</title>
+    <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+    <link rel='stylesheet' href="style.css">
+  </head>
+  <body>
+    <header>Personal Library</header>
+    <div id = 'btn-div'>
+      <button id='add-btn'>+</button>
+    </div>
+    <div class = "container">
+      <div class = "book-container"></div>
+      <div id='new-entry'>
+        <label>Title </label><br>
+        <input type='text' class = "input" id='title' placeholder="enter here"><br>
+        <label>Author </label><br>
+        <input type='text' class = "input" id='author' placeholder="enter here"><br>
+        <label>Number of pages </label><br>
+        <input type='text' class = "input" id='pages' placeholder="enter here"><br>
+        <label class = 'checkbox'><input type='checkbox' id='checkbox' /><span>Read</span></label><br>
+        <input type="submit" id='submit-btn'>
+        <button id = 'close-btn'>Close</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
